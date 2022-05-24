@@ -1,0 +1,140 @@
+{
+  "psi-header.changes-tracking": {
+    "isActive": true,
+    "exclude": [
+      "markdown",
+      "json"
+    ],
+    "autoHeader": "off"
+  },
+  "psi-header.lang-config": [
+    {
+      "language": "javascript",
+      "begin": "/**",
+      "prefix": " * ",
+      "end": " */"
+    },
+    {
+      "language": "typescript",
+      "mapTo": "javascript"
+    }
+  ],
+  "psi-header.templates": [
+    {
+      "language": "*",
+      "template": [
+        "This file is part of the node-fast-router",
+        "@author <<author>> <<<authoremail>>>",
+      ]
+    }
+  ],
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src",
+    "app": "${folder}/app",
+  },
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "cSpell.words": [
+    "bignumber",
+    "brotli",
+    "bson",
+    "DATASOURCE",
+    "dubbo",
+    "errcode",
+    "errmsg",
+    "hpagent",
+    "Millis",
+    "mockjs",
+    "multiremote",
+    "oracledb",
+    "recordset",
+    "traceparent",
+    "tracestate",
+    "transpiler",
+    "transpilers",
+    "webdriverio",
+    "williamchan"
+  ],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "mocha.files.glob": "test/unit/**/*.test.ts",
+  "mocha.requires": [
+    "ts-node/register",
+    "tsconfig-paths/register"
+  ],
+  "files.associations": {
+    "*.wpy": "vue",
+    "string": "cpp",
+    "iostream": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "__bit_reference": "cpp",
+    "__bits": "cpp",
+    "__config": "cpp",
+    "__debug": "cpp",
+    "__errc": "cpp",
+    "__functional_base": "cpp",
+    "__hash_table": "cpp",
+    "__locale": "cpp",
+    "__mutex_base": "cpp",
+    "__node_handle": "cpp",
+    "__nullptr": "cpp",
+    "__split_buffer": "cpp",
+    "__string": "cpp",
+    "__threading_support": "cpp",
+    "__tuple": "cpp",
+    "algorithm": "cpp",
+    "array": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "bitset": "cpp",
+    "cctype": "cpp",
+    "chrono": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "exception": "cpp",
+    "functional": "cpp",
+    "initializer_list": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "iterator": "cpp",
+    "limits": "cpp",
+    "locale": "cpp",
+    "memory": "cpp",
+    "mutex": "cpp",
+    "new": "cpp",
+    "optional": "cpp",
+    "ostream": "cpp",
+    "ratio": "cpp",
+    "streambuf": "cpp",
+    "string_view": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "typeinfo": "cpp",
+    "unordered_map": "cpp",
+    "utility": "cpp",
+    "vector": "cpp"
+  },
+}
